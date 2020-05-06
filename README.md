@@ -1,2 +1,2 @@
 # Ds-Algo
-Coding pracctise for Data Structure and Algorithms
+Coding practise for Data Structure and Algorithms
