@@ -72,3 +72,7 @@ if __name__ == '__main__':
     res = AddTwoNumber()
     res.head = res.add_numbers(first.head, second.head)
     res.print_list()
+
+    # Lesson Learnt if we use self.t_head in return in place of
+    # temp then it causes error because it has global scope it will available to every
+    # recursion stack
