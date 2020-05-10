@@ -1,4 +1,5 @@
-from LinkedList import LinkedList, Node
+from LinkedList import Node
+from LinkedList import LinkedList
 
 
 class AddTwoNumber(LinkedList, Node):
@@ -52,8 +53,8 @@ class AddTwoNumber(LinkedList, Node):
 
 
 if __name__ == '__main__':
-    first = LinkedList()
-    second = LinkedList()
+    first = AddTwoNumber()
+    second = AddTwoNumber()
 
     # Create first list
     first.push(6)
