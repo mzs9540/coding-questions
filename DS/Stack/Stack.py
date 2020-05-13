@@ -27,7 +27,7 @@ class Stack:
             return self.stack.pop()
 
     def is_empty(self):
-        return self.top == 0
+        return self.top == -1
 
     def capacity(self):
         return self.top
