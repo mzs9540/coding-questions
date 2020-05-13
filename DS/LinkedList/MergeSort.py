@@ -6,9 +6,7 @@ def find_middle(h):
     while not fast.next and not fast.next.next:
         slow = slow.next
         fast = fast.next.next
-
-    m = slow
-    return m
+    return slow
 
 
 class MergeSort(LinkedList):
@@ -35,7 +33,7 @@ class MergeSort(LinkedList):
         m = find_middle(t_head)
         m_next = m.next
         m.next = None
-        left = self.merge_sort(m)
+        left = self.merge_sort(t_head)
         right = self.merge_sort(m_next)
         return self.merge(left, right)
 
@@ -51,5 +49,6 @@ if __name__ == '__main__':
     llist.push(3)
     llist.push(0)
     llist.push(1)
+    llist.print_list()
     llist.head = llist.merge_sort(llist.head)
     llist.print_list()
