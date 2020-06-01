@@ -32,3 +32,4 @@ if __name__ == '__main__':
     array = [60, 2, 6, 4, 7, 13, 11, 10, 9, 23, 56]
     next_greater = NextGreater()
     next_greater.print_greater(array)
+
