@@ -1,4 +1,4 @@
-from Stack import Stack
+from DS.Stack.Stack import Stack
 
 
 class BalancedParenthesis(Stack):

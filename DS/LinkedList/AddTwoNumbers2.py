@@ -1,5 +1,5 @@
-from LinkedList import LinkedList
-from LinkedList import Node
+from DS.LinkedList import LinkedList
+from DS.LinkedList import Node
 
 
 def prepend_zeros(head, extra):

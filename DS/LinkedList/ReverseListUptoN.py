@@ -1,6 +1,4 @@
-from datetime import datetime
-
-from LinkedList import LinkedList
+from DS.LinkedList import LinkedList
 
 
 class ReverseListUptoN(LinkedList):

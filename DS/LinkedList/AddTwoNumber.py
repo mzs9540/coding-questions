@@ -1,5 +1,5 @@
-from LinkedList import Node
-from LinkedList import LinkedList
+from DS.LinkedList import Node
+from DS.LinkedList import LinkedList
 
 
 class AddTwoNumber(LinkedList, Node):

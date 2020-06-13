@@ -1,5 +1,3 @@
-
-
 class Stack:
     """
     Create a stack Using an array

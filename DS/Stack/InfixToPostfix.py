@@ -1,4 +1,4 @@
-from Stack import Stack
+from DS.Stack.Stack import Stack
 
 preferences = {
     '+': 1,
@@ -26,7 +26,6 @@ class InfixToPostfix(Stack):
         self.push('(')
         exp = e + ')'
         for i in exp:
-            print(i, self.peek(), self.postfix)
             if is_operator(i):
                 while is_operator(i) and is_operator(self.peek()) and (preferences[self.peek()] >= preferences[i]):
                     self.postfix += str(self.pop())

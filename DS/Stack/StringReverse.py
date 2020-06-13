@@ -1,4 +1,4 @@
-from Stack import Stack
+from DS.Stack import Stack
 
 
 class StringReverse(Stack):

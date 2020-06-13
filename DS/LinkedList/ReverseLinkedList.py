@@ -1,4 +1,4 @@
-from LinkedList import LinkedList
+from DS.LinkedList import LinkedList
 
 
 class ReverseLinkedList(LinkedList):
