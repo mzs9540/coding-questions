@@ -23,5 +23,5 @@ def print_all_sublist(arr: List[int]):
 
 
 if __name__ == '__main__':
-    array = [3, 4, -7, 3, 1, 3, 1, -4, -2, -2]
+    array = [3, 4, -7, 3, 1, 3, 1, -4, -2, -2, 3]
     print_all_sublist(array)
