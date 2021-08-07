@@ -30,7 +30,7 @@ def merge(array_big, array_small):
 
 
 if __name__ == '__main__':
-    arr_big = [0, 2, 0, 3, 0, 5]
+    arr_big = [0, 2, 0, 3, 0, 5, 1]
     arr_small = [0, 1, 9]
 
     re_arrange(arr_big)
